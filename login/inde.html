@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    
+    
+    
+      <form action="new.html">
+          <div class="container">
+             <div class="form-box">
+              <h1>Signup</h1>
+          <div class="input-group">
+          <div class="input-field">
+           <input type="text" placeholder="Name" id="name" onkeyup="validateName()" required>
+          </div>
+          <span id="name-error"></span> 
+
+          <div class="input-field">
+           <input type="text" placeholder="Email adderss" id="email" onkeyup="validateEmailadderss()" required>
+          </div>
+          <span id="email-error"></span>
+
+          <div class="input-field">
+           <input type="text" placeholder="Password" id="password" onkeyup="validatePassword()" required>
+          </div>
+          <span id="password-error"></span>
+
+          <div class="input-field">
+           <input type="text" placeholder="Confirm Password " id="ConfirmPassword" onkeyup="validateConfirmPassword()" required>
+          </div>
+          <span id="ConfirmPassword-error"></span>
+
+          <div class="btn-field">
+            <button type="submit" id="signup" onclick="return validateForm()">Signup</button>
+          </div>
+         <span id="signup-error"></span>
+        
+          <p class="para">You have already account <a href="login.html">sign</a></p>
+       </div> 
+     </div>
+    </div>
+</form>
+
+ <script src="script.js"></script>
+
+</body>
+</html>

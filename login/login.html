@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<form action="new.html">
+    <div class="container">
+    <div class="form-box">
+
+            <h1>Login</h1>
+          <div class="input-group">
+          <div class="input-field">
+            <input type="text" placeholder="Name" id="name" onkeyup="validateName()" required>
+          </div>
+          <span id="name-error"></span> 
+
+          <div class="input-field">
+            <input type="text" placeholder="Email adderss" id="email" onkeyup="validateEmailadderss()" required>
+          </div>
+          <span id="email-error"></span>
+          <div class="input-field">
+            <input type="text" placeholder="Password" id="password" onkeyup="validatePassword()" required>
+          </div>
+          <span id="password-error"></span>
+
+          <div class="btn-field">
+            <button type="submit" id="login" onclick="return validateForm()">Login</button>
+            <span id=""></span>
+          </div>
+
+          <div class="para">
+            <p>Don't have ccount <a href="inde.html" id="signup"> Register</a></p>
+                 </div>
+ </form>
+          
+ <script src="script.js"></script>
+ 
+
+
+</body>
+</html>

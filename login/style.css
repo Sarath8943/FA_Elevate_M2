@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/wp4390828.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 40px;
+    border-radius: 3px;
+    background: #3c00a0;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+
+}
+.btn-field{
+    margin: px;
+    width: 100px;
+    display: flex;
+ justify-content: center;
+}
+   
+.btn-field button { 
+    margin: 35px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+   background-color: #3c00a0;
+   color:wheat;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight: 600;
+
+}
+.para{
+    font-size: 0.9ren;
+    color: black;
+    text-align: center;
+    margin: 25px 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.box{
+  margin: 10px 0;
+  font-size: 0,9rem;
+  justify-content: center;
+}
+
+span{
+    color: red;
+}
